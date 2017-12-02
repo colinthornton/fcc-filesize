@@ -1,0 +1,24 @@
+{
+  "name": "fcc-filesize",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp API project [File Metadata Microservice](https://www.freecodecamp.org/challenges/file-metadata-microservice)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colinthornton/fcc-filesize.git"
+  },
+  "author": "Colin Thornton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colinthornton/fcc-filesize/issues"
+  },
+  "homepage": "https://github.com/colinthornton/fcc-filesize#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
