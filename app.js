@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', upload.single('file'), (req, res) => {
-  res.json({ size: req.file.size });
+  res.json({ bytes: req.file.size });
 });
 
 app.listen(process.env.PORT || 8080, () => console.log('Server open'));
